@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- <div id="mydiv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam porro unde, inventore ut commodi est ratione et? Eaque, voluptatem tempore?</div> -->
+    <button id="btn-click">Click</button>
+    <h3 id="mytext">Lorem ipsum dolor sit amet. </h3>
+      <div class="columns is-justify-content-center">
+        <div class="column is-6-tablet is-5-desktop is-4-widescreen is-3-fullh">
+          <form
+            method="POST"
+            action="https://herotofu.com/start"
+            id="myform"
+          >
+            <label class="is-block mb-4">
+              <span class="is-block mb-2">Your name</span>
+              <input
+                name="name"
+                type="text"
+                class="input"
+                placeholder="Joe Bloggs"
+              />
+            </label>
+
+            <label class="is-block mb-4">
+              <span class="is-block mb-2">Email address</span>
+              <input
+                required
+                name="email"
+                type="email"
+                class="input"
+                placeholder="joe.bloggs@example.com"
+              />
+            </label>
+
+            <label class="is-block mb-4">
+              <span class="is-block mb-2">Message</span>
+              <textarea
+                name="message"
+                class="textarea"
+                rows="3"
+                placeholder="Tell us what you're thinking about..."
+              ></textarea>
+            </label>
+
+            <div class="mb-4">
+              <button type="submit" class="button is-link px-4">
+                Contact Us
+              </button>
+            </div>
+
+            <div>
+              <div class="is-size-7 has-text-right">
+                by
+                <a
+                  href="https://herotofu.com/start"
+                  class="has-text-dark"
+                  target="_blank"
+                  >HeroTofu</a
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="today.js"></script>
+  </body>
+</html>
